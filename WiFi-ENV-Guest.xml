@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>ENV-Guest</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>454E562D4775657374</hex>
+			<name>ENV-Guest</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB010000002AB0EB28808B2745A47CC0EEAF20A347000000000200000000001066000000010000200000003A253A65FD04C0A821178C825096A6476E26F964A7B8231FB217C5E4F685BF17000000000E80000000020000200000001486F12625A46D8F271A9D4657AF93A7F14D38F4B8C148E9A1564399301591CE100000004FB4AD9D5211006BCAF327754CB390A640000000D53E4E3FA52FEC60DC5C2028A5F93A86027F8FD844A8941D09B657AC2FD74074A47392962DD6F51408BF717BD8120BFF8445FB74932835DC66413110DA7E490E</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>641384849</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>
